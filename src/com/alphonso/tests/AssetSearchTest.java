@@ -11,11 +11,13 @@ import com.alphonso.pages.LoginPage;
 
 public class AssetSearchTest extends BaseTest {
 	
-		@Test(priority = 2)
+	@Test
 	public void assetSearch() throws IOException, InterruptedException
 	{
 	String headend = ExcelData.getdata(file_path, "Asset", 1, 0);
+	System.out.println(headend);
 	String PackageID  = ExcelData.getdata(file_path, "Asset", 1, 1);
+	System.out.println(PackageID);
 	AssetSearchPage asp = new AssetSearchPage(driver);
 	asp.clickOnSearch();
 	Thread.sleep(2000);

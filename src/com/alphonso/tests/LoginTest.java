@@ -2,6 +2,7 @@ package com.alphonso.tests;
 
 import java.io.IOException;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.alphonso.generic.BaseTest;
@@ -11,7 +12,7 @@ import com.alphonso.pages.LoginPage;
 
 public class LoginTest extends BaseTest 
 {
-	@Test(priority = 1)
+@BeforeMethod
 public void login() throws IOException, InterruptedException
 {
 String username1 = ExcelData.getdata(file_path, "Login", 1, 0);
