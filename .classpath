@@ -17,5 +17,6 @@
 	<classpathentry kind="lib" path="D:/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="D:/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/568673/Downloads/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

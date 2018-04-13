@@ -25,28 +25,20 @@ public class LoginPage
 	Super(driver);
 		PageFactory.initElements(driver,this);
 	}
-	
-	
-
 	private void Super(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
-
-
-
 	public void enterUsername(String username1) throws InterruptedException
 	{
 		user.sendKeys(username1);
 		Thread.sleep(2000);
 	}
-	
 	public void enterPassword(String password1) throws InterruptedException
 	{
 		pass.sendKeys(password1);
 		Thread.sleep(2000);
 	}
-	
 	public void clickLogin() throws InterruptedException
 	{
 		Thread.sleep(2000);
